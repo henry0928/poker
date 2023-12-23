@@ -240,5 +240,5 @@ void loop() {
   // Do nothing. Everything is done in another task by the web server
   Serial.println("take picture") ;
   postImage() ;
-  delay(20000);
+  delay(3000);
 }
